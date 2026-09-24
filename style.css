@@ -4,21 +4,28 @@
     box-sizing: border-box;
 }
 
+
+   
+
  .div-container {
     background-image: url(images/image1.png);
     height: 600px;
-    width: 100%;
+    width: 1270px;
     background-position: center;
+    margin: 0 300px;
+    padding-right: 300px;
+    background-size: contain;
  }
 
  .div-items1 {
     background-color: #745130;
     position: relative;
     height: 70px;
-    width: 80%;
+    width: 1000px;
     border-radius: 50px;
     margin-left: 200px;
     top: 50px;
+    align-items: center;
  }
 
  .div-items2 {
@@ -35,3 +42,112 @@
     left: 30px;
     
  }
+
+ .div-items3 {
+   left: 300px;
+   position: absolute;
+   top: 23px;
+   display: flex;
+   gap: 20px;
+ }
+
+ .div-items3 a {
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: 400;
+   color: aliceblue;
+ }
+
+ .div-items3 :last-child {
+   background-color: #a76c34;
+   border-radius: 30px;
+   padding: 10px 10px;
+   left: 550px;
+   top: 5px;
+ }
+
+ .div-items4 {
+   width: 593px;
+   position: absolute;
+   top: 206px;
+   /* left: 64px; */
+   gap: 11px;
+   padding-left: 64px;
+ }
+
+ .flex-container {
+   width: 1270px;
+   height: 730px;
+   background-color: #e4d1c0;
+   margin: 0 300px;
+   gap: 86px;
+   padding:  85px;
+   display: flex;
+ }
+
+ .flex-container :nth-child(1) {
+   width: 50%;
+   height: 587px;
+ }
+
+ .flex-container :nth-child(2) {
+   width: 50%;
+   padding-top: 70px;
+   padding-bottom: -100px;
+   align-items: center;
+   height: 287px;
+ }
+
+ .flex-container2 {
+   background-image: url(images/Frame\ 23.png);
+   height: 459px;
+   width: 1270px;
+   margin: 0 300px;
+   
+ }
+
+ .flex-container3 {
+   margin: 0 300px;
+   background-color: #e4d1c0;
+   padding: 50px;
+ }
+
+ .flex-container3 img {
+   width: 1200px;
+   
+ }
+
+ .flex-child {
+   font-weight: 500;
+   font-size: 36px;
+   color: #a76c34;
+   text-align: center;
+   padding: 30px 0;
+ }
+
+ .flex-container4 {
+   background-image: url(images/Frame\ 37.png);
+   height: 459px;
+   margin: 0 300px;
+   width: 1300px;
+
+ }
+
+ .flex-container5 {
+   background-color: #e4d1c0;
+   margin: 0 300px;
+    padding: 50px;
+ }
+
+  .flex-container5 :nth-child(1) {
+   background-size: contain;
+   width: 1200px;
+  }
+
+  .flex-container6 {
+   background-image: url(images/image3.png);
+   height: 400px;
+   margin: 0 300px;
+   width: 1300px;
+   background-size: contain;
+  }
